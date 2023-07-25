@@ -1,24 +1,35 @@
-# restaurant-app
+# Кафе рандомайзер
 
-## Project setup
-```
+Приложение, которое предоставляет список различных кафе и может случайным образом выбрать одно из них. Выбранным кафе можно поделиться с друзьями по ссылке.
+
+<h2>
+Посмотреть сайт можно по 👉 
+<a href="https://musical-churros-a4986b.netlify.app/"><span>ссылке</span></a>
+</h2>
+
+
+## Установка и запуск
+
+#### 1. Склонируйте репозиторий на вашем компьютере:
+
+git clone https://github.com/DanilVystupov/cafe-randomizer.git
+
+#### 2. Установите необходимые зависимости:
+
+cd cafe-randomizer
+
 npm install
-```
 
-### Compiles and hot-reloads for development
-```
+#### 3. Запустите сервер разработки:
+
 npm run serve
-```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Приложение будет доступно на `http://localhost:8080`
 
-### Lints and fixes files
-```
-npm run lint
-```
+## Технологии и библиотеки
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Vue.js <br/>
+Vue-router <br/>
+Bootstrap <br/>
+Clipboard <br/>
+Font-awesome
